@@ -29,6 +29,6 @@ const formatValue = new Intl.NumberFormat('pt-br', {
 });
 ///////////////////////////////////////////////////////////////////////////
 console.log('-------CAIXA-------')
-console.log(`Valor Inicial sem Desconto: ${formatValue.format(initialValue.toFixed(2))}`)
-console.log(`Desconto Total: ${formatValue.format(totalDiscount.toFixed(2))}`)
-console.log(`Valor Final Com desconto: ${formatValue.format(sumPrice.toFixed(2))}`)
+console.log(`Valor Inicial sem Desconto: ${formatValue.format(initialValue)}`)
+console.log(`Desconto Total: ${formatValue.format(totalDiscount)}`)
+console.log(`Valor Final Com desconto: ${formatValue.format(sumPrice)}`)
